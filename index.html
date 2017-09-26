@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./static/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700" rel="stylesheet">
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+    <div id="credits">
+        <div class="center">
+            <p><strong>Short Trip along the route for Northwood and Bucknall</strong></p>
+            <p>Hold left or right to move.</p>
+            <p>Read more about the project <a href="https://github.com/fotisz/RSEI-LMR31-TeamExercise" target="_blank">here.</a></p>
+            <p>Thank you to <a href="https://twitter.com/alexanderperrin" target="_blank">Alexander Perrin</a> for <br/>digital support.</p>
+             <p>Quality Mode: <span class="quality-setting selected" id="default-button">Default</span><span class="quality-setting"
+                id="eco-button">Eco</span></p>
+                <p>Sound: <span class="quality-setting selected" id="mute-off">On</span><span class="quality-setting"
+                    id="mute-on">Off</span></p>
+        </div>
+    </div>
+    <div id="credits-button">
+        <img id="credits-icon" src="./static/img/info.png"></div>
+    </div>
+    <div id="loader">
+        <div class="label">
+            <span id="loader-content">Loading ~ <span id="loading-message">Code</span> ~ <span id="loading-percent"></span></span>
+            <img class="spinner" src="./static/img/spinner.svg">
+        </div>
+    </div>
+    <script src="./static/bundle.js"></script>
+</body>
+
+</html>
